@@ -81,10 +81,230 @@ table {
   line-height: 168.9%;
 }
 
+.work {
+  background-color: #F7F7F9;
+}
+.work .container {
+  padding: 65px 9px 55px;
+}
+.work .work-title {
+  padding: 0 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 138.9%;
+  margin-bottom: 40px;
+}
+.work .work-methods {
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+.work .work-methods__item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.work .work-methods__item-icon {
+  width: 92px;
+  height: 92px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(178, 186, 207, 0.38);
+  border-radius: 22px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work .work-methods__item-icon .icon {
+  width: 54px;
+  height: 54px;
+}
+.work .work-methods__item-text {
+  max-width: 195px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  line-height: 121.4%;
+}
+.work .work-methods__item:last-child {
+  margin-bottom: 0;
+}
+.work .work-description {
+  margin-bottom: 50px;
+}
+.work .work-description__item {
+  min-height: 274px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(178, 186, 207, 0.38);
+  border-radius: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #222222;
+}
+.work .work-description__item-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  line-height: 138.9%;
+  text-transform: uppercase;
+  padding: 38px 38px 0;
+  margin-bottom: 30px;
+}
+.work .work-description__item-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 147.9%;
+  padding: 0 18px;
+}
+.work .work-description__item:first-of-type {
+  margin-bottom: 20px;
+}
+.work .service-button {
+  display: flex;
+  margin: 0 auto;
+  width: 315px;
+  height: 70px;
+  background: linear-gradient(92.9deg, #80CC8C 0%, #64A745 98.33%);
+  box-shadow: 10px 10px 40px rgba(96, 155, 68, 0.71);
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 138.9%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+}
+.work .service-button:hover {
+  cursor: pointer;
+  background: linear-gradient(92.9deg, #5BCA6D 0%, #4B922A 98.33%);
+}
+
+.reviews {
+  background-color: #FBFBFB;
+}
+.reviews .container {
+  padding: 65px 35px 0px;
+  text-align: center;
+}
+.reviews .reviews-title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #222222;
+  line-height: 138.9%;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+.reviews .reviews-list__item img {
+  margin-bottom: 30px;
+}
+.reviews .reviews-list__item-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 147.9%;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.reviews .reviews-list__item-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 147.9%;
+  color: #222222;
+  margin-bottom: 15px;
+}
+.reviews .reviews-list__item-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #68AC4E;
+  line-height: 147.9%;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+.footer .container {
+  padding: 55px 59px 55px;
+}
+.footer .logo {
+  margin-bottom: 65px;
+}
+.footer .logo img {
+  width: 255px;
+  height: 53px;
+}
+.footer .address-list__item {
+  position: relative;
+}
+.footer .address-list__item-city {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 147.9%;
+  color: #23303B;
+  margin-bottom: 7px;
+}
+.footer .address-list__item-street {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #23303B;
+  margin-bottom: 40px;
+}
+.footer .address-list__item-email {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #68AC4E;
+}
+.footer .address-list__item-email:nth-of-type(even) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #23303B;
+  margin-bottom: 25px;
+}
+.footer .address-list__item-contact {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #68AC4E;
+}
+.footer .address-list__item-contact:nth-of-type(even) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #23303B;
+  margin-bottom: 80px;
+}
+.footer .address-list__item::after {
+  content: " ";
+  border: 1px solid #C2C2C2;
+  width: 315px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 115%;
+}
+.footer .footer-subtitle__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147.9%;
+  color: #A7A7A7;
+}
+.footer .footer-subtitle__text:nth-of-type(odd) {
+  margin-bottom: 25px;
+}
+
 * {
   box-sizing: border-box;
   line-height: 1;
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 
 .visually-hidden {
