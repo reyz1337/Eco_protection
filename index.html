@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Еко захист</title>
+</head>
+<body>
+    <h1 class="visually-hidden">Еко захист</h1>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-link desktop">
+                    <img src="img/Logo.webp" alt="logo">
+                </a>
+                <a href="#" class="logo-link mobile">
+                    <img src="img/mobile-logo.webp" width="35" height="35" alt="logo">
+                </a>
+            </div>
+            <nav class="navigation">
+                <h2 class="visually-hidden">Main navigation</h2>
+                <button class="menu-button" id="menu-btn">
+                    <span class="visually-hidden">Menu button</span>
+                    <span class="menu-button__item"></span>
+                </button>
+                <ul class="main-menu">
+                    <li class="main-menu__item"> <!-- main-menu__item_active -->
+                        <a class="main-menu__link" href="#">нашi послуги</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link" href="#">переваги</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link" href="#">як ми працюемо</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link" href="#">вiдгуки</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link" href="#">наші документи</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a class="main-menu__link" href="#">контакти</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-switcher">uk</div>
+            <button class="service-button">контакти</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Утилiзацiя</h2>
+                <h3 class="hero-subtitle">небезпечних вiдходiв</h3>
+                <p class="hero-text">Ми використовуємо новітні екологічно безпечні технології</p>
+                <button class="service-button">безкоштовна консультацiя</button>
+            </div>
+            <div class="modal-window">
+                <h2 class="modal-window__title">Заповніть форму</h2>
+                <p class="modal-window__text">Ми передзвонимо для обговорення деталей та справи і узгодимо час консультації, або зателефонуйте нам за номером +38(097) 427 48 29</p>
+                <form action="#" method="post" class="contact-form">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" name="tel" placeholder="Номер">
+                    <img src="img/icons/user.svg" alt="user">
+                    <input type="tel" name="tel" placeholder="ім'я">
+                    <button type="submit">Надіслати</button>
+                </form>
+            </div>
+            <div class="modal-window__success">
+                <h2 class="modal-window__title">Заповніть форму</h2>
+                <img src="img/email.svg" alt="email">
+                <p class="modal-window__text">Відправлено</p>
+            </div>
+            <div class="modal-window__error">
+                <h2 class="modal-window__title">помилка відправки</h2>
+                <img src="img/error.svg" alt="email">
+                <p class="modal-window__text">Спробуйте пізніше, або зателефонуйте нам за номером +38(097) 427 48 29. Вибачте за технічні незручності</p>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="services-title">наші послуги</h2>
+                <ul class="services-list">
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_1"></use>
+                            </svg>
+                            <p class="services-list__item-title">Клінічні (медичні) відходи</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_2"></use>
+                            </svg>
+                            <p class="services-list__item-title">Фармацевтичні відходи</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_3"></use>
+                            </svg>
+                            <p class="services-list__item-title">Акумуляторні батареї</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_4"></use>
+                            </svg>
+                            <p class="services-list__item-title">Хімічні речовини</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_5"></use>
+                            </svg>
+                            <p class="services-list__item-title">Шлам гальванічний</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_6"></use>
+                            </svg>
+                            <p class="services-list__item-title">Зношені шини</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_7"></use>
+                            </svg>
+                            <p class="services-list__item-title">Промислові відходи виробництва</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_8"></use>
+                            </svg>
+                            <p class="services-list__item-title">Комп’ютерна та побутова техніка</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_9"></use>
+                            </svg>
+                            <p class="services-list__item-title">Відходи  клеїв, лаків, фарб,  барвників, смол</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_10"></use>
+                            </svg>
+                            <p class="services-list__item-title">Відходи забруднені нафтопродуктами</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_11"></use>
+                            </svg>
+                            <p class="services-list__item-title">Люмінесцентні лампи термометри ртутні</p>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_12"></use>
+                            </svg>
+                            <p class="services-list__item-title">Деревина просочена хім. речовинами</p>
+                            <span class="services-list__item-subtitle">шпали та інші</span>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_13"></use>
+                            </svg>
+                            <p class="services-list__item-title">Відпрацьовані нафтопродукти та їх суміші</p>
+                            <span class="services-list__item-subtitle">ганчір’я, фільтри, пісок, папір, тара</span>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_14"></use>
+                            </svg>
+                            <p class="services-list__item-title">Відходи упаковок та контейнерів</p>
+                            <span class="services-list__item-subtitle">мішки, каністри</span>
+                        </a>
+                    </li>
+                    <li class="services-list__item">
+                        <a href="#">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#icon_15"></use>
+                            </svg>
+                            <p class="services-list__item-title">Забруднені полімери</p>
+                            <span class="services-list__item-subtitle">плівка, пластир</span>
+                        </a>
+                    </li>
+                </ul>
+                <button class="service-button">замовити послугу</button>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits-title">
+                    <h2 class="benefits-title__item">Важливі переваги</h2>
+                </div>
+                <div class="benefits-info">
+                    <p class="benefits-info__item">
+                        Нам не байдужий стан довкілля в Україні, а також усі ті ризики, загрози та небезпеки, які несе з собою погіршення стану навколишнього середовища. Наш висококваліфікований колектив вирішує складні завдання по очищенню навколишнього середовища від різних видiв небезпечних відходів, які утворюются в процесi виробництва. Що істотно знижує забруднення навколишнього середовища.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container">
+                <h2 class="work-title">Як ми працюемо</h2>
+                <ul class="work-methods">
+                    <li class="work-methods__item">
+                      <div class="work-methods__item-icon">
+                        <svg class="icon">
+                            <use xlink:href="img/sprite.svg#chat"></use>
+                        </svg>
+                      </div>
+                      <p class="work-methods__item-text">Обговорюємо Вашу проблему</p>  
+                    </li>
+                    <li class="work-methods__item">
+                        <div class="work-methods__item-icon">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#contract"></use>
+                            </svg>
+                        </div>
+                        <p class="work-methods__item-text">Комерційна пропозиція та договір</p>  
+                    </li>
+                    <li class="work-methods__item">
+                        <div class="work-methods__item-icon">
+                            <svg class="icon">
+                                <use xlink:href="img/sprite.svg#delivery-truck"></use>
+                            </svg>
+                        </div>
+                        <p class="work-methods__item-text">Роботи зі збирання, вивезення та утилізації</p>  
+                    </li>
+                </ul>
+                <div class="work-description">
+                    <div class="work-description__item">
+                        <h3 class="work-description__item-title">З нами легко працювати</h3>
+                        <p class="work-description__item-text">
+                            На кожен проект призначається окремий менеджер. Він супроводжує проект на всіх етапах, веде переговори з вами, доступною мовою розповідає про кожен етап і умови співпраці.
+                        </p>
+                    </div>
+                    <div class="work-description__item">
+                        <h3 class="work-description__item-title">Зрозумілі ціни</h3>
+                        <p class="work-description__item-text">
+                            Вартість роботи залежить від методу утилізації, виду, агрегатного стану і концентрацій небезпечних речовин, що входять до складу відходів, процесу збору та відстані до місця розвантаження.
+                        </p>
+                    </div>
+                </div>
+                <button class="service-button">безкоштовна консультацiя</button>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2 class="reviews-title">відгуки</h2>
+                <ul class="reviews-list">
+                    <li class="reviews-list__item">
+                        <img src="img/roshen.svg" alt="roshen logo">
+                        <h4 class="reviews-list__item-title">ТОВ Рошен Світ</h4>
+                        <p class="reviews-list__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+                        <a href="#" class="reviews-list__item-link">більше</a>
+                    </li>
+                    <li class="reviews-list__item">
+                        <img src="img/gora.svg" alt="gora logo">
+                        <h4 class="reviews-list__item-title">Gora</h4>
+                        <p class="reviews-list__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+                        <a href="#" class="reviews-list__item-link">більше</a>
+                    </li>
+                    <li class="reviews-list__item">
+                        <img src="img/zero.svg" alt="zero logo">
+                        <h4 class="reviews-list__item-title">Zero</h4>
+                        <p class="reviews-list__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+                        <a href="#" class="reviews-list__item-link">більше</a>
+                    </li>
+                    <li class="reviews-list__item">
+                        <img src="img/gora.svg" alt="gora logo">
+                        <h4 class="reviews-list__item-title">Gora</h4>
+                        <p class="reviews-list__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... </p>
+                        <a href="#" class="reviews-list__item-link">більше</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-link">
+                    <img src="img/Logo.webp" alt="logo">
+                </a>
+            </div>
+            <ul class="address-list">
+                <li class="address-list__item">
+                    <p class="address-list__item-city">м.Київ<br>Київська обл.</p>
+                    <p class="address-list__item-street"></p>
+                    <p class="address-list__item-email">E-mail</p>
+                    <p class="address-list__item-email">Leonid0502@ukr.net</p>
+                    <p class="address-list__item-contact">Контакти</p>
+                    <p class="address-list__item-contact">+380 (67) 930-29-06</p>
+                </li>
+                <li class="address-list__item">
+                    <p class="address-list__item-city">м.Житомир<br> Житомирська обл.</p>
+                    <p class="address-list__item-street">вул.Кафедральна, буд.4-А</p>
+                    <p class="address-list__item-email">E-mail</p>
+                    <p class="address-list__item-email">ecozahistukraina@ukr.net</p>
+                    <p class="address-list__item-contact">Контакти</p>
+                    <p class="address-list__item-contact">+380 (97) 427-48-29<br>(0412) 46-80-79</p>
+                </li>
+                <li class="address-list__item">
+                    <p class="address-list__item-city">м.Вінниця<br> Вінницька обл.</p>
+                    <p class="address-list__item-street">вул.Айвазовського, буд. № 2</p>
+                    <p class="address-list__item-email">E-mail</p>
+                    <p class="address-list__item-email">vin-ekozahist@ukr.net</p>
+                    <p class="address-list__item-contact">Контакти</p>
+                    <p class="address-list__item-contact">+380 (67) 315-09-09<br>+380 (67) 263-80-87</p>
+                </li>
+            </ul>
+            <div class="button-top">
+                <a href="#">
+                    <img src="img/circle.svg" alt="circle" class="circle">
+                    <svg class="icon">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-subtitle">
+                <p class="footer-subtitle__text"><i class="fa-regular fa-copyright"></i> 2021. ТОВ «Еко захист Україна»</p> 
+                <p class="footer-subtitle__text">Дизайн та розробка</p>
+            </div>
+        </div>
+    </footer>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
