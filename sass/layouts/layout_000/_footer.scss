@@ -72,7 +72,8 @@
         position: absolute;
         right: 30px;
         top: 1050px;
-        .arrow {
+        cursor: pointer;
+        /* .arrow {
             left: 0;
             position: absolute;
             top: 20px;
@@ -83,6 +84,27 @@
             position: absolute;
             top: 30px;
             transform: translateX(20px);
+        } */
+        .icon {
+            width: 21.13px;
+            height: 21.13px;
+            left: 0;
+            position: absolute;
+            top: 19px;
+            transform: translateX(25px);
+            fill: rgba(255, 255, 255, 0.53);
+        }
+        .icon:last-of-type {
+            left: 0;
+            position: absolute;
+            top: 27px;
+            transform: translateX(25px);
+        }
+    }
+    .button-top:hover{
+        .icon {
+            transition: .2s linear;
+            fill: $white;
         }
     }
     .footer-subtitle {

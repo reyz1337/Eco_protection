@@ -79,26 +79,26 @@
             margin-bottom: 20px;
         }
     }
-    .service-button {
-        display: flex;
-        margin: 0 auto;
-        width: 315px;
-        height: 70px;
-        background: linear-gradient(92.9deg, #80CC8C 0%, #64A745 98.33%);
-        box-shadow: 10px 10px 40px rgba(96, 155, 68, 0.71);
-        border-radius: 8px;
-        font-family: $font;
-        font-size: 14px;
-        color: $white;
-        font-weight: 600;
-        line-height: 138.9%;
-        text-transform: uppercase;
-        justify-content: center;
-        align-items: center;
-        border: transparent;
-    }
-    .service-button:hover {
-        cursor: pointer;
-        background: linear-gradient(92.9deg, #5BCA6D 0%, #4B922A 98.33%);
-    }
+    // .service-button {
+    //     display: flex;
+    //     margin: 0 auto;
+    //     width: 315px;
+    //     height: 70px;
+    //     background: linear-gradient(92.9deg, #80CC8C 0%, #64A745 98.33%);
+    //     box-shadow: 10px 10px 40px rgba(96, 155, 68, 0.71);
+    //     border-radius: 8px;
+    //     font-family: $font;
+    //     font-size: 14px;
+    //     color: $white;
+    //     font-weight: 600;
+    //     line-height: 138.9%;
+    //     text-transform: uppercase;
+    //     justify-content: center;
+    //     align-items: center;
+    //     border: transparent;
+    // }
+    // .service-button:hover {
+    //     cursor: pointer;
+    //     background: linear-gradient(92.9deg, #5BCA6D 0%, #4B922A 98.33%);
+    // }
 }
