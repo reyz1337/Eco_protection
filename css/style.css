@@ -227,6 +227,7 @@ table {
 
 .footer {
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 .footer .container {
   padding: 55px 59px 55px;
@@ -289,6 +290,26 @@ table {
   left: 50%;
   transform: translateX(-50%);
   top: 115%;
+}
+.footer .address-list__item:last-of-type::after {
+  display: none;
+}
+.footer .button-top {
+  position: absolute;
+  right: 30px;
+  top: 1050px;
+}
+.footer .button-top .arrow {
+  left: 0;
+  position: absolute;
+  top: 20px;
+  transform: translateX(20px);
+}
+.footer .button-top .arrow:last-of-type {
+  left: 0;
+  position: absolute;
+  top: 30px;
+  transform: translateX(20px);
 }
 .footer .footer-subtitle__text {
   font-weight: 500;
